@@ -37,5 +37,11 @@
 #
 class manifest {
 
+  file { '/etc/jabil_manifest.txt':
+    ensure  => file,
+    owner   => 'root',
+    group   => 'wheel',
+    mode    => '0550',
+  } 
 
 }
