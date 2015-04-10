@@ -10,8 +10,5 @@ describe 'manifest' do
         'group'   => 'wheel',
         'mode'    => '0550',
     ) end 
-  #  it { should contain_file('/etc/jabil_manifest.txt').with(
-  #    'ensure'    => 'file'
-  #) }
   end
 end
