@@ -1,6 +1,10 @@
 fixtures:
-  repositories:
-    "stdlib": "https://github.com/puppetlabs/puppetlabs-stdlib"
-    "staging": "https://github.com/nanliu/puppet-staging"
+  forge_modules:
+    "stdlib": "puppetlabs/stdlib"
+    "lvm": "puppetlabs/lvm"
+    "fstab": "AlexCline/fstab"
+    "mounts": "AlexCline/mounts"
+    "stdlib": "puppetlabs/stdlib"
+    #"staging": "https://github.com/nanliu/puppet-staging"
   symlinks:
-    "logrotate": "#{source_dir}"
+    "mount": "#{source_dir}"
